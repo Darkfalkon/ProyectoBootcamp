@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- Tipografías -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap y FontAwesome -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
+  <!-- Estilos personalizados -->
+  <link rel="stylesheet" href="styles/estilos.css" />
+
+  <title>U Guitars</title>
+</head>
+<body>
+
+  <!-- 🧭 Navegación -->
+  <nav class="navbar">
+    <button class="menu-toggle">☰</button>
+    <ul class="nav-left">
+      <li><a href="#">Catálogo</a></li>
+      <li><a href="#">¿Quiénes somos?</a></li>
+      <li><a href="#">Contacto</a></li>
+    </ul>
+    <ul class="nav-right">
+      <li><a href="#">Iniciar sesión</a></li>
+    </ul>
+  </nav>
+
+  <!-- 🎸 Sección principal -->
+  <section class="contenedor">
+    <div class="columna-izquierda">
+      <div class="grupo-badges">
+        <div class="badge-wrapper">
+          <span class="badge badge-oferta">20% Ofertas</span>
+          <span class="badge badge-promocion">Conoce guitarras en promoción ></span>
+        </div>
+      </div>
+      <h1><span class="promocional1">Comunica tu alma con una guitarra</span></h1>
+      <p class="promocional">Si siempre has querido una guitarra, acércate a nosotros y te la enviamos, vivas donde vivas.</p>
+      <form class="formulario">
+        <input type="email" placeholder="Ingresa tu correo" />
+        <button>Enviar</button>
+      </form>
+      <p>
+        <span class="parrafo-estilizado1">Te contactaremos en 24 horas. Aceptamos todas las tarjetas de crédito y débito.</span>
+        <span class="terminos">Conoce nuestros términos y condiciones.</span>
+      </p>
+    </div>
+    <div class="columna-derecha">
+      <img src="img/guitarras111.jpg" alt="Instrumentos musicales" />
+    </div>
+  </section>
+
+  <!-- 🆕 Guitarras nuevas -->
+  <section class="two">
+    <div class="second text-center">
+      <h5 class="til-dos">Nuevas</h5>
+      <h2 class="til-dos">Guitarras recién llegadas</h2>
+      <p class="til-dos">¿Trovador o rockero? Triunfa como sea, con la guitarra correcta.</p>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <!-- Tarjeta 1 -->
+      <div class="col">
+        <div class="card">
+          <img src="imgd/guitarra1.jpg" class="card-img-top" alt="Guitarra1" />
+          <div class="card-body">
+            <p>Nueva</p>
+            <h5 class="card-title">PRS SE Custom 22 Electric Guitar</h5>
+            <p class="card-text">Guitarra personalizada, en barniz, cuerdas de nylon. Incluye amplificador individual.</p>
+          </div>
+          <div class="text-center">
+            <img src="imgd/usuario.png" alt="usuario1" class="foto" />
+            <p>Roel Aufderehar</p>
+            <small class="texto-secundario">Mar 16, 2020 - 6 min read</small>
+          </div>
+        </div>
+      </div>
+      <!-- Tarjeta 2 -->
+      <div class="col">
+        <div class="card">
+          <img src="imgd/guitarra2.jpg" class="card-img-top" alt="Guitarra2" />
+          <div class="card-body">
+            <p>Nueva</p>
+            <h5 class="card-title">PRS SE Custom 22 Electric Guitar</h5>
+            <p class="card-text">Guitarra personalizada, en barniz, cuerdas de nylon. Incluye amplificador individual.</p>
+          </div>
+          <div class="text-center">
+            <img src="imgd/guitar.png" alt="usuario2" class="foto" />
+            <p>Roel Aufderehar</p>
+            <small class="texto-secundario">Mar 16, 2020 - 6 min read</small>
+          </div>
+        </div>
+      </div>
+      <!-- Tarjeta 3 -->
+      <div class="col">
+        <div class="card">
+          <img src="imgd/guitarra1.jpg" class="card-img-top" alt="Guitarra3" />
+          <div class="card-body">
+            <p>Nueva</p>
+            <h5 class="card-title">PRS SE Custom 22 Electric Guitar</h5>
+            <p class="card-text">Guitarra personalizada, en barniz, cuerdas de nylon. Incluye amplificador individual.</p>
+          </div>
+          <div class="text-center">
+            <img src="imgd/usuario.png" alt="usuario3" class="foto" />
+            <p>Roel Aufderehar</p>
+            <small class="texto-secundario">Mar 16, 2020 - 6 min read</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 📞 Contacto -->
+  <section class="third">
+    <div class="three d-flex flex-wrap">
+      <div class="caja-t">
+        <img src="imgd/musico.jpg" alt="Músico" class="musico" />
+      </div>
+      <div class="caja-t">
+        <h5>TE AYUDAMOS A ELEGIR</h5>
+        <h2>Cuéntanos tus objetivos y podemos ayudarte a alcanzar ese nivel que buscas.</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+        <div class="container-boton">
+          <button class="boton-dos">Contactar ya mismo</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🔚 Footer -->
+  <section class="footer">
+    <div class="iconos">
+      <ul class="icons">
+        <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="https://github.com" target="_blank"><i class="fab fa-github"></i></a></li>
+        <li><a href="https://www.dribbble.com" target="_blank"><i class="fab fa-dribbble"></i></a></li>
+      </ul>
+    </div>
+    <div class="bl-me d-flex flex-wrap justify-content-center">
+      <!-- Bloques de enlaces -->
+      <div class="bloques">
+        <ol class="ol-fin">
+          <h5 class="til-fot">Guitarras</h5>
+          <li class="block">Catálogo</li>
+        </ol>
+      </div>
+      <div class="bloques">
+        <ol class="ol-fin">
+          <h5 class="til-fot">Soporte</h5>
+          <li class="block">Precios y cotizaciones</li>
+          <li class="block">Certificaciones</li>
+          <li class="block">Guías</li>
+        </ol>
+      </div>
+      <div class="bloques">
+        <ol class="ol-fin">
+          <h5 class="til-fot">Nosotros</h5>
+          <li class="block">About</li>
+          <li class="block">Blog</li>
+          <li class="block">Trabajos</li>
+          <li class="block">Prensa</li>
+          <li class="block">Partners</li>
+        </ol>
+      </div>
+      <div class="bloques">
+        <ol class="ol-fin">
+          <h5 class="til-fot">Legal</h5>
+          <li class="block">Privacidad</li>
+          <li class="block">Términos</li>
+        </ol>
+      </div>
+    </div>
+    <hr class="line" />
+    <p class="copyright">&copy; 2021. Todos los derechos reservados. Esta es una página ficticia con fines académicos.</p>

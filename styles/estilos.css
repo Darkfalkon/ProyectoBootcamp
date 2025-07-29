@@ -1,0 +1,380 @@
+/* ============================
+   🎨 Estilos base
+============================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #1a202c;
+  color: white;
+}
+
+/* ============================
+   🧭 Navegación
+============================= */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111827;
+  padding: 10px 20px;
+}
+
+.nav-left {
+  margin-left: 6rem; /* Ajusta el valor según lo que necesites */
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 28px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* ============================
+   🎸 Sección principal
+============================= */
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  min-height: 100vh;
+  padding: 0;
+}
+
+.columna-izquierda {
+  flex: 0.65;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #111827;
+  padding: 110px 154px;
+}
+
+.columna-derecha {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}
+
+.columna-derecha img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ============================
+   🏅 Badges
+============================= */
+.grupo-badges {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.badge-wrapper {
+  position: relative;
+  width: max-content;
+  display: flex;
+  gap: 1rem;
+  align-items: center; 
+}
+
+.badge {
+  padding: 0.125rem 0.75rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background-color: black;
+  border-radius: 9999px;
+  display: inline-block;
+}
+
+.badge-promocion {
+  position: absolute;
+  top: 0;
+  left: 115px;
+  font-size: 0.85rem;
+  text-transform: none;
+  letter-spacing: normal;
+  white-space: nowrap;
+}
+
+/* ============================
+   🧾 Texto y formulario
+============================= */
+.promocional1 {
+  font-weight: 700;
+  font-size: clamp(1rem, 5vw, 3.2rem);
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.promocional {
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.formulario {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.formulario input[type="email"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.formulario button {
+  padding: 10px 20px;
+  background-color: #38b2ac;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.parrafo-estilizado1 {
+  display: block;
+  margin-top: 15px;
+  font-size: 0.95rem;
+}
+
+.terminos {
+  display: block;
+  margin-top: 8px;
+}
+
+/* ============================
+   🆕 Tarjetas de guitarras
+============================= */
+.two {
+  background-color: white;
+  padding: 60px 20px;
+  color: #1a202c;
+}
+
+.card-title {
+  color: #2d3748;
+  font-weight: 600;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.second {
+  margin-bottom: 40px;
+}
+
+.til-dos {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #1a202c;
+  margin-bottom: 1rem;
+}
+
+.card {
+  background-color: #f9f9f9;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  color: white;
+  border: none;
+}
+
+.card-body p {
+  margin-bottom: 0.5rem;
+  color: #4a5568;
+}
+
+.foto {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-top: 10px;
+}
+
+/* ============================
+   📞 Contacto
+============================= */
+.third {
+  background-color: #07112c;
+  padding: 60px 20px;
+  color: white;
+}
+
+.three {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.caja-t {
+  flex: 1 1 300px;
+  padding: 20px;
+}
+
+.musico {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.container-boton {
+  margin-top: 20px;
+}
+
+.boton-dos {
+  background-color: #38b2ac;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* ============================
+   🔚 Footer
+============================= */
+.footer {
+  background-color: white;
+  color: #888;
+  padding: 40px 20px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 20px;
+}
+
+.icons li a {
+  color: #888;
+  font-size: 1.2rem;
+}
+
+.icons li a:hover {
+  color: #000;
+}
+
+.bl-me {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.bloques {
+  min-width: 150px;
+}
+
+.ol-fin h5 {
+  margin-bottom: 10px;
+}
+
+.block {
+  margin-bottom: 8px;
+}
+
+.line {
+  width: 50%;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/* ============================
+   📱 Responsive
+============================= */
+@media (max-width: 768px) {
+  .contenedor {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+
+  .columna-izquierda,
+  .columna-derecha {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .menu-toggle {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .nav-left,
+  .nav-right {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .navbar.active .nav-left,
+  .navbar.active .nav-right {
+    display: flex;
+  }
+
+  .formulario {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .formulario input[type="email"],
+  .formulario button {
+    width: 100%;
+  }
+
+  .three {
+    flex-direction: column;
+  }
+
+  .bl-me {
+    flex-direction: column;
+    align-items: center;
+  }
+}
